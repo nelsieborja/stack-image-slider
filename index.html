@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Stack Image Slider (2014)</title>
+	
+	<style>
+	*{border:0;margin:0;padding:0}
+	html,body{height:100%}
+	#slider {
+		display: none;
+		position: relative;
+		top:50%;
+		margin: -140px auto 0;
+		height: 280px;
+		width: 210px;
+	}
+	#slider div {
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+	#slider img {
+		border: 8px solid #fff;
+		box-shadow: 2px 2px 5px #ccc;
+	}
+	</style>
+	<!--[if lte IE 8]>
+		<style>
+			#slider div{border:1px solid #ccc}
+		</style>
+	<![endif]-->
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="plugin.js"></script>
+</head>
+<body>
+	<div id="slider">
+		<div><img alt="cwam" src="http://cookingwithamanicure.com/wp-content/themes/Forsy/img/slider/image_1.jpg"></div>
+		<div><img alt="cwam" src="http://cookingwithamanicure.com/wp-content/themes/Forsy/img/slider/image_2.jpg"></div>
+		<div><img alt="cwam" src="http://cookingwithamanicure.com/wp-content/themes/Forsy/img/slider/image_3.jpg"></div>
+		<div><img alt="cwam" src="http://cookingwithamanicure.com/wp-content/themes/Forsy/img/slider/image_4.jpg"></div>
+	</div>
+</body>
+</html>
